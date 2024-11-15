@@ -27,16 +27,16 @@
 }
 
 .Header {
-  /*background-color: hsla(218, 100%, 20%, 0.757);*/
-  /*background:linear-gradient(rgba(231, 165, 33, 0.689), rgba(255, 217, 0, 0.777), rgba(231, 165, 33, 0.689));*/
-  background: linear-gradient(#daa520eb,#f8d910eb,#daa520eb);
+  background: linear-gradient(#daa520eb, #f8d910eb, #daa520eb);
   width: 100%;
   height: 80px;
-  margin: auto;
-  display: inline-flex;
-  position:relative;
+  display: flex; /* Use flex for proper alignment */
+  justify-content: space-between; /* Distribute content evenly */
+  /*align-items: center; /* Align items vertically in the center */
+  position: relative;
   z-index: 10;
-  top:0;
+  top: 0;
+  padding: 0 20px; /* Optional padding for spacing */
 }
 
 .appLogo {
@@ -56,18 +56,20 @@
 }
 
 .options {
-  margin-left: 1000px;
-  margin-right: auto;
+  display: flex; 
+  gap: 30px; 
   color: black;
-  font-family:Cambria;
-  padding-left: 400px;
-  padding-top: 10px;
+  font-family: Cambri;
 }
 
+
 .optionItem {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  white-space: nowrap; 
+  font-size: 20px;
 }
+
 
 .countdown-flex-container {
   display: flex;
@@ -121,16 +123,17 @@
   position: relative;
   animation: fadeIn 1s ease-in-out forwards;
   z-index: 0;
-  color: #48484688;
+  filter: brightness(0.5);
 }
 
 .LakshayaText{
   position: absolute;
   top: 0%; /* Adjusts vertical position over the image */
-  transform: translateX(-50%); /* Centers horizontally */
+  transform: translateX(0%); /* Centers horizontally */
   color: rgb(254, 145, 36);
+  color: whitesmoke;
   /*background-color: #f4f2ef70;*/
-  background-color: whitesmoke;
+  /*background-color: rgba(245, 245, 245, 0.601);*/
   text-align: center;
   padding: 20px;
   width: 40%;
@@ -138,7 +141,8 @@
   font-weight: 700;
   font-family:Cambria;
   z-index: 1; 
-  animation: slideInFromRight 1s ease-in-out forwards;
+  animation: fadeIn 1s ease-in-out forwards;
+  /*animation: slideInFromRight 1s ease-in-out forwards;*/
 }
 
 .Description {
@@ -191,4 +195,6 @@
 {
   font-size: x-large;
   color: azure;
+  padding-left: 10px;
+  padding-right: 10px;
 }
