@@ -5,11 +5,16 @@
   }
    
   .innovative-speakers {
-    color: azure;
+    color: gold;
     justify-content: center;
-    padding-top: 115px;
+    text-align:center;
+    padding-top: 100px;
     font-size: xx-large;
-  }
+    padding-bottom:10px;
+    /*padding-left: 50rem;*/
+    font-family: Cambria;
+}
+  
   
   /* Carousel */
   

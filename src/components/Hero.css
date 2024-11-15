@@ -34,12 +34,21 @@
   height: 80px;
   margin: auto;
   display: inline-flex;
-  position:fixed;
+  position:relative;
   z-index: 10;
   top:0;
 }
 
-.appLogo, .profile {
+.appLogo {
+  height: 80px;
+  width: 80px;
+  padding-right: 10px;
+  /*padding-top: 10px;*/
+  padding-left:10px;
+  
+}
+
+.profile {
   height: 50px;
   width: 50px;
   padding-right: 10px;
@@ -60,19 +69,54 @@
   padding-right: 10px;
 }
 
+.countdown-flex-container {
+  display: flex;
+  align-items: center; 
+  gap: 50px; 
+  justify-content: center;
+  width:100%;
+  height:90px;
+}
+
+.countdown-timer {
+  text-align: center;
+  font-size: 24px;
+  margin: 10px;
+  color: whitesmoke;
+  font-family: fantasy;
+  font-style:italic;
+  font-size:50px;
+}
+
+.register-button{
+  height:60px;
+  width:100px;
+  border-color:#f8d910eb;
+  border-width:1px;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: black;
+  color: #f8d910eb;
+  font-family: fantasy;
+  font-weight:300 ;
+  font-size: 20px;
+  /*background: linear-gradient(#daa520eb,#f8d910eb,#daa520eb);*/
+}
+
+
 .picture-description-container {
   position: relative; 
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding-top: 90px;
+  /*padding-top: 90px;*/
 }
 
 .Entrepreneur-pic {
   width: 90%;
   height: 750px;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 20px;
   position: relative;
   animation: fadeIn 1s ease-in-out forwards;
@@ -107,12 +151,26 @@
   margin-bottom: 20px;
 }
 
-.innovative-speakers {
-  color: black;
+.AboutUs-container{
+  padding: 20px;
+}
+
+.AboutUs {
+  
+  color: gold;
+  width:100%;
   justify-content: center;
-  padding-top: 10px;
-  padding-bottom:10px;
+  text-align: center;
+  padding-top: 80px;
   font-size: xx-large;
-  padding-left: 50rem;
+  padding-bottom:10px;
+  /*padding-left: 50%;*/
   font-family: Cambria;
+  
+}
+
+.AboutUs-content
+{
+  font-size: x-large;
+  color: azure;
 }
