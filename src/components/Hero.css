@@ -121,6 +121,24 @@
   position: relative;
   animation: fadeIn 1s ease-in-out forwards;
   z-index: 0;
+  color: #48484688;
+}
+
+.LakshayaText{
+  position: absolute;
+  top: 0%; /* Adjusts vertical position over the image */
+  transform: translateX(-50%); /* Centers horizontally */
+  color: rgb(254, 145, 36);
+  /*background-color: #f4f2ef70;*/
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  width: 40%;
+  font-size: 80px;
+  font-weight: 700;
+  font-family:Cambria;
+  z-index: 1; 
+  animation: slideInFromRight 1s ease-in-out forwards;
 }
 
 .Description {
