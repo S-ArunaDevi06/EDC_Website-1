@@ -1,5 +1,5 @@
 import './Speakers.css';
-import React, { useState } from 'react';
+import React from 'react';
 import profile_image from "../image_for_speakers/profile.jpeg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
@@ -34,91 +34,91 @@ function App(){
 
 const data = [
   {
-    person_image: 'speakers/Rajmohan_Arumugam.png',
+    person_image: 'speakers/sycon23/Rajmohan_Arumugam.png',
     person_name: 'Rajmohan Arumugam',
     person_description: 'Sycon 2023',
     short_description:
       'A comedian, motivational speaker, radio jockey, writer, orator, and social media influencer. He was the channel director of the famous YouTube channel \'Put Chutney\' and also founded its sister channel \'Tamil Vannakam.\' '
   },
   {
-    person_image: 'speakers/vigneshkanth.jpg',
+    person_image: 'speakers/sycon23/vigneshkanth.jpg',
     person_name: 'Vigneshkanth',
     person_description: 'Sycon 2023',
     short_description:
       'An actor, comedian and former radio jockey.',
   },
   {
-    person_image: 'speakers/narendra_prasad.jpg',
+    person_image: 'speakers/sycon23/narendra_prasad.jpg',
     person_name: 'Narendra Prasad',
     person_description: 'Sycon 2023',
     short_description:
       'An actor ',
   },
   {
-    person_image: 'speakers/settai_sheriff.jpg',
+    person_image: 'speakers/sycon23/settai_sheriff.jpg',
     person_name: 'Settai Sheriff',
     person_description: 'Sycon 2023',
     short_description:
       'An actor, anchor, comedian and social media influencer',
   },
   {
-    person_image:'speakers/vivek-anandan.jpg',
+    person_image:'speakers/sycon23/vivek-anandan.jpg',
     person_name: 'Vivek Anandhan',
     person_description: 'Sycon 2023',
     short_description:
       'An actor and comedian',
   },
   {
-    person_image:'speakers/harshath-khan.jpg',
+    person_image:'speakers/sycon23/harshath-khan.jpg',
     person_name: 'Harshath Khan',
     person_description: 'Sycon 2023',
     short_description:
       'An engineer, a mimicry artist and a stage performer',
   },
   {
-    person_image: 'speakers/adhirchi-arun.jpg',
+    person_image: 'speakers/sycon23/adhirchi-arun.jpg',
     person_name: 'Adhirchi Arun',
     person_description: 'Sycon 2023',
     short_description:
       'An actor, comedian and youtuber',
   },
   {
-    person_image: 'speakers/vikkals-vikram.jpg',
+    person_image: 'speakers/sycon23/vikkals-vikram.jpg',
     person_name: 'Vikram',
     person_description: 'Sycon 2023',
     short_description:
       'An actor, stand-up comedian and youtuber',
   },
   {
-    person_image:'speakers/santhosh-premkumar.jpg',
+    person_image:'speakers/sycon23/santhosh-premkumar.jpg',
     person_name: 'Santhosh Premkumar',
     person_description: 'Sycon 2023',
     short_description:
       'An instagram and youtube influencer',
   },
   {
-    person_image: 'speakers/sudharsanan-ganapathy.jpg',
+    person_image: 'speakers/sycon23/sudharsanan-ganapathy.jpg',
     person_name: 'Sudharsanan Ganapathy',
     person_description: 'Sycon 2023',
     short_description:
       'An entrepreneur and a personal branding expert and currently runs an agency named "The Social Company"',
   },
   {
-    person_image: 'speakers/ananth-ram.jpg',
+    person_image: 'speakers/sycon23/ananth-ram.jpg',
     person_name: 'Ananth Ram',
     person_description: 'Sycon 2023',
     short_description:
       'An actor, writer and director',
   },
   {
-    person_image: 'speakers/pooranesh.jpg',
+    person_image: 'speakers/sycon23/pooranesh.jpg',
     person_name: 'Pooranesh',
     person_description: 'Sycon 2023',
     short_description:
       'An actor and a producer',
   },
   {
-    person_image: 'speakers/wilspat.jpg',
+    person_image: 'speakers/sycon23/wilspat.jpg',
     person_name: 'Wilspat',
     person_description: 'Sycon 2023',
     short_description:
@@ -126,14 +126,14 @@ const data = [
   },
 
   {
-    person_image: 'speakers/sabarish.jpg',
+    person_image: 'speakers/sycon23/sabarish.jpg',
     person_name: 'Sabarish',
     person_description: 'Sycon 2023',
     short_description:
       'An actor and choreographer',
   },
   {
-    person_image: 'speakers/ganesh-ram.jpg',
+    person_image: 'speakers/sycon23/ganesh-ram.jpg',
     person_name: 'Ganesh Ram',
     person_description: 'Sycon 2023',
     short_description:

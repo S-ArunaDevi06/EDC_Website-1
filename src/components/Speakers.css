@@ -29,7 +29,7 @@
     width: 250px;
     height: 250px;
     border-radius: 10px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid goldenrod;
     overflow: hidden;
     position: relative;
     margin-left: 40px;
@@ -40,7 +40,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    object-fit:contain;
+    object-fit:cover;
     border-radius: 10px;
     margin: 0;
   }
